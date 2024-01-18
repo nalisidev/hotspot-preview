@@ -7,50 +7,29 @@
   </head>
   <body>
     <script type="module">
-      import Hotspot from "https://cdn.jsdelivr.net/npm/wezeshanet-hotspot-js@1.0.6/lib/web.js";
+      import Hotspot from "https://cdn.jsdelivr.net/npm/wezeshanet-hotspot-js@1.0.7/lib/web.js";
 
       Hotspot.initHotspot({
         packagePurchaseUrl: undefined,
         voucherUrl: undefined,
         packages: [
           {
-            amount: 200,
-            devices: 2,
+            amount: 150,
+            devices: 1,
             duration: "2 hours",
             id: 1,
-            name: 'packageName'
+            name: '2 hrs Unlimited'
           },
           {
             amount: 200,
             devices: 2,
             duration: "2 hours",
             id: 1,
-            name: 'packageName'
-          },
-          {
-            amount: 200,
-            devices: 2,
-            duration: "2 hours",
-            id: 1,
-            name: 'packageName'
-          },
-          {
-            amount: 200,
-            devices: 2,
-            duration: "2 hours",
-            id: 1,
-            name: 'packageName'
-          },
-          {
-            amount: 200,
-            devices: 2,
-            duration: "2 hours",
-            id: 1,
-            name: 'packageName'
+            name: '2 hrs Unlimited'
           },
         ],
         csrfToken: '',
-        dark: true,
+        dark: false,
         theme: 'yellow',
         logo: 'https://th.bing.com/th/id/R.e1d709fc01d327cd5d8a429b27fc41b6?rik=KSdagOU4oA61ug&pid=ImgRaw&r=0' //url or toDataUrl(imagePath) or undefined
       });
